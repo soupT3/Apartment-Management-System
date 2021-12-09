@@ -1,0 +1,240 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-6 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .col-lg-6 p{
+  margin-top: 1.5rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: black;
+}
+
+.marketing .row .col-lg-6 a{
+  background-color: black;
+  width: 200px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}
+
+/* Header */
+
+.collapse .navbar-collapse .justify-content-end{
+  float: right;
+}
+
+/* Contact Page */
+
+.contact-title{
+  margin-top:  1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: black;
+}
+
+.d-grid button{
+  background-color: black;
+  width: 300px;
+}
+
+
+/* Login Page */
+
+/* set form background colour */
+form{
+  background: #fff;
+}
+
+/* set padding and size of the form */
+.form-container{
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.form-container .form-group h4{
+  margin-bottom: 1rem;
+  text-align: center;
+  color: black;
+}
+
+.form-container .form-group #UserType1 {
+  height: 35px;
+  width: 100%;
+  margin-top: 0.15rem;
+  border-color: lightgray;
+  border-radius: 0.2rem;
+  color: #696865;
+}
+
+/* Maintenance Page */
+
+form .mb-4 #priority {
+  height: 35px;
+  width: 30%;
+  border-color: lightgray;
+  border-radius: 0.2rem;
+  color: #696865;
+}
+
+form .mb-4 #category {
+  height: 35px;
+  width: 30%;
+  border-color: lightgray;
+  border-radius: 0.2rem;
+  color: #696865;
+}
+
+/* Visitor Info Page */
+form .mb-4 #time {
+  height: 35px;
+  width: 32%;
+  border-color: lightgray;
+  border-radius: 0.2rem;
+  color: #696865;
+}
+
+
+/* About Page */
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-top: 2rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background: #383a3d;
+  color: white;
+  margin-bottom: 2.5rem;
+}
+
+.container1 {
+  padding: 0 16px;
+}
+
+.container1::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container1 h3{
+  margin-top: 0.60rem;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #555;
+  color: white;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Admin Dashboard Page */
+
+.dashboard-title{
+  margin-bottom: 3rem;
+  color: black;
+}
+
+/* floor Plans Page */
+
+.floorPlans-title{
+  margin-top:  3rem;
+  text-align: center;
+  color: black;
+}
+
+/* Footer */
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:  5%;
+   background: #fff;
+   color: rgb(29, 26, 26);
+   text-align: center;
+   font-size: 0.75rem;
+   padding-top: 0.75rem;
+}
